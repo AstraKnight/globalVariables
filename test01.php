@@ -76,6 +76,7 @@ function prettyPrint($array){
     print "</pre>";
 }
 
+?>
 
 
 
