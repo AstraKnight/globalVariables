@@ -76,6 +76,38 @@ function prettyPrint($array){
     print "</pre>";
 }
 
+
+/* **************** MY BEAUTIFUL TABLE ******************* */
+
+echo "<hr><br>";
+
+echo "<p style='font-size:1.8em;color:blue'>My beautiful table</p>";
+
+echo "<pre>
+<table border='1'>\r\n
+  <tr>
+    <th>URL</th>
+    <th>DATA</th>
+  </tr>
+  <tr>
+    <td>Scheme</td>
+    <td>$scheme</td>
+  </tr>
+  <tr>
+    <td>Host</td>
+    <td>$host</td>
+  </tr>
+  <tr>
+    <td>Path</td>
+    <td>$path</td>
+  </tr>
+  <tr>
+    <td>Page</td>
+    <td>$page</td>
+  </tr>
+</table>
+</pre>";
+
 ?>
 
 
